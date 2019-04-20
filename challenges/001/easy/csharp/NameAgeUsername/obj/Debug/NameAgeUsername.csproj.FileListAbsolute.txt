@@ -1,0 +1,7 @@
+C:\dev\learning\daily-programmer\challenges\001\easy\csharp\NameAgeUsername\bin\Debug\NameAgeUsername.exe.config
+C:\dev\learning\daily-programmer\challenges\001\easy\csharp\NameAgeUsername\bin\Debug\NameAgeUsername.exe
+C:\dev\learning\daily-programmer\challenges\001\easy\csharp\NameAgeUsername\bin\Debug\NameAgeUsername.pdb
+C:\dev\learning\daily-programmer\challenges\001\easy\csharp\NameAgeUsername\obj\Debug\NameAgeUsername.csprojAssemblyReference.cache
+C:\dev\learning\daily-programmer\challenges\001\easy\csharp\NameAgeUsername\obj\Debug\NameAgeUsername.csproj.CoreCompileInputs.cache
+C:\dev\learning\daily-programmer\challenges\001\easy\csharp\NameAgeUsername\obj\Debug\NameAgeUsername.exe
+C:\dev\learning\daily-programmer\challenges\001\easy\csharp\NameAgeUsername\obj\Debug\NameAgeUsername.pdb
