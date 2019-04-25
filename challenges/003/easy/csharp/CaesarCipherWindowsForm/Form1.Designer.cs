@@ -1,6 +1,6 @@
 ﻿namespace CaesarCipherWindowsForm
 {
-    partial class Form1
+    partial class CaesarForm
     {
         /// <summary>
         /// Required designer variable.
@@ -35,7 +35,7 @@
             this.inputTextBox = new System.Windows.Forms.TextBox();
             this.encodedTextBox = new System.Windows.Forms.TextBox();
             this.cipherButton = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.shiftBox = new System.Windows.Forms.TextBox();
             this.cipherChoiceLabel = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -97,13 +97,14 @@
             this.cipherButton.TabIndex = 5;
             this.cipherButton.Text = "Encrypt";
             this.cipherButton.UseVisualStyleBackColor = true;
+            this.cipherButton.Click += new System.EventHandler(this.CipherButton_Click);
             // 
-            // textBox1
+            // shiftBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(351, 125);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 6;
+            this.shiftBox.Location = new System.Drawing.Point(351, 125);
+            this.shiftBox.Name = "shiftBox";
+            this.shiftBox.Size = new System.Drawing.Size(100, 20);
+            this.shiftBox.TabIndex = 6;
             // 
             // cipherChoiceLabel
             // 
@@ -114,13 +115,13 @@
             this.cipherChoiceLabel.TabIndex = 7;
             this.cipherChoiceLabel.Text = "Shift By";
             // 
-            // Form1
+            // CaesarForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 389);
             this.Controls.Add(this.cipherChoiceLabel);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.shiftBox);
             this.Controls.Add(this.cipherButton);
             this.Controls.Add(this.encodedTextBox);
             this.Controls.Add(this.inputTextBox);
@@ -128,7 +129,7 @@
             this.Controls.Add(this.inputLabel);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form1";
+            this.Name = "CaesarForm";
             this.Text = "Simple Cipher";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -146,7 +147,7 @@
         private System.Windows.Forms.TextBox inputTextBox;
         private System.Windows.Forms.TextBox encodedTextBox;
         private System.Windows.Forms.Button cipherButton;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox shiftBox;
         private System.Windows.Forms.Label cipherChoiceLabel;
     }
 }
